@@ -16,7 +16,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     high_value = 1000
     if value < high_value
-      high_value = value
+      high_value += value
     end
     puts high_value
   end
