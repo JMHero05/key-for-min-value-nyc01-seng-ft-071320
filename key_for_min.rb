@@ -16,12 +16,13 @@
 
 def key_for_min_value(name_hash)
   lowest_value = 1000
+  lowest_key = :key
   name_hash.each do |key, value|
     if value < lowest_value
       lowest_value = value
     end
+    if lowest_value == value
+      lowest_key = key
+    end
   end
-when lowest_value == value
-  key
-end
 end
