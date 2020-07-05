@@ -18,6 +18,6 @@ def key_for_min_value(name_hash)
     if value < high_value
       high_value = value
     end
+    puts high_value
   end
-  puts high_value
 end
