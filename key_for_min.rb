@@ -19,4 +19,5 @@ def key_for_min_value(name_hash)
       high_value = value
     end
   end
+  puts high_value
 end
