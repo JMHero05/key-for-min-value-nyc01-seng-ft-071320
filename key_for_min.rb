@@ -25,10 +25,5 @@ def key_for_min_value(name_hash)
       lowest_key = key
     end
   end
-  if lowest_key == {}
-    lowest_key = nil
-  else
-    lowest_key
-  end
   lowest_key
 end
