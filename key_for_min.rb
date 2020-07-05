@@ -12,12 +12,11 @@
 # winner
 # end
 
+# if the value is less than the value before, that is the lowest
+
 def key_for_min_value(name_hash)
+  lowest_value = 1000
   name_hash.each do |key, value|
-    high_value = 1000
-    if value < high_value
-      high_value += value
-    end
-    puts high_value
+    if value < 1000
   end
 end
