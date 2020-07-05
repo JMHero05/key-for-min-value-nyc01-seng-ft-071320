@@ -1,6 +1,6 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
-# 
+#
 # def select_winner(passengers)
 #   winner = ""
 # passengers.each do |suite, name|
@@ -8,7 +8,7 @@
 #     winner = name
 #   end
 # end
-# 
+#
 # winner
 # end
 
